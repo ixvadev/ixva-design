@@ -1,0 +1,47 @@
+@media(max-width:767px)
+{
+    .navbar-default {
+        padding-top: 10px;
+    }
+
+    .nav_scroll {
+        padding-top: 0;
+    }
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-brand,
+    .nav_scroll .navbar-brand {
+        padding: 15px 15px;
+    }
+
+    .navbar-default .navbar-toggle {
+        padding: 0;
+        margin-top: 18px;
+        border: none;
+    }
+
+    .navbar-default .navbar-collapse, 
+    .navbar-default .navbar-form {
+        border: none;
+        background-color: #000;
+    }
+
+    .nav_scroll .navbar-collapse, 
+    .nav_scroll .navbar-form {
+        background-color: #fff;
+    }
+
+    .home nav.navbar ul.nav > li {
+        padding: 10px;
+        text-align: center;
+        border-top: 1px solid rgba(153, 153, 153, 0.3);
+    }
+
+    .navbar-default .navbar-nav a:after {
+        display: none;
+    }
+
+}
